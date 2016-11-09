@@ -1,0 +1,20 @@
+Do not pass objectes to uncitions by value;
+if the objects handle dynamic memory (i.e., heap memory)
+do not ever pass objects to functions by value;
+instead pass by reference, or even bvetter, pass by const reference.
+
+But if you must pass these objects by value,
+make sure that the class of these objects defines,
+a copy constructor,
+a copy assignment operator,
+and a destructor.
+That's called "the rule of three", or "the big three",
+and is emphasized in the C++ literature over and over and over again!
+
+To optimize performance, C++11 introduced
+move contructor, and
+move assignment operator.
+As a result, we must now follow "the rule of five" in C++.
+There are 19 lines in this file.
+Line 5, and 13 are empty lines.
+

@@ -1,0 +1,65 @@
+lk.print(2)
+(1)Do not pass objectes to uncitions by value;
+(2)if the objects handle dynamic memory (i.e., heap memory)
+
+
+
+lk.print(13,7)
+(7)make sure that the class of these objects defines,
+(8)a copy constructor,
+(9)a copy assignment operator,
+(10)and a destructor.
+(11)That's called "the rule of three", or "the big three",
+(12)and is emphasized in the C++ literature over and over and over again!
+(13)
+
+
+
+lk.print(25,5)
+invalid range of line numbers from 5 to 25
+default rage from 5 to 20 is not in effect
+(5)
+(6)But if you must pass these objects by value,
+(7)make sure that the class of these objects defines,
+(8)a copy constructor,
+(9)a copy assignment operator,
+(10)and a destructor.
+(11)That's called "the rule of three", or "the big three",
+(12)and is emphasized in the C++ literature over and over and over again!
+(13)
+(14)To optimize performance, C++11 introduced
+(15)move contructor, and
+(16)move assignment operator.
+(17)As a result, we must now follow "the rule of five" in C++.
+(18)There are 19 lines in this file.
+(19)Line 5, and 13 are empty lines.
+(20)
+
+
+
+lk.print(-25,5)
+invalid range of line numbers from -25 to 5
+default rage from 1 to 5 is not in effect
+(1)Do not pass objectes to uncitions by value;
+(2)if the objects handle dynamic memory (i.e., heap memory)
+(3)do not ever pass objects to functions by value;
+(4)instead pass by reference, or even bvetter, pass by const reference.
+(5)
+
+
+
+lk.print(-25,-85)
+invalid range of line numbers from -85 to -25
+default rage from 1 to 1 is not in effect
+(1)Do not pass objectes to uncitions by value;
+
+
+
+lk.print(25, 50)
+invalid range of line numbers from 25 to 50
+default rage from 20 to 20 is not in effect
+(20)
+
+
+Done !
+Press any key to continue . . .
